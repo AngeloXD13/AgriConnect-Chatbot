@@ -1,0 +1,18 @@
+{
+  "profileName": "AgriConnectChatbot",
+  "jobId": "5c715cb7-fe7b-49a2-a17c-2602fb6fb39a",
+  "projectId": "54651.4455066563",
+  "time": "2023-07-25T07:25:35.825Z",
+  "log": [
+    "Creating Azure resources...",
+    "Checking the Existence of the Resource Group ...",
+    "Use the Resource Group: AgriConnect at southeastasia",
+    "> Creating App Registration ...",
+    "Start to add password for App, Id : d9b84977-be6b-433c-9ba3-38a9da9bb53f",
+    "> Create App Registration Success! ID: d9b84977-be6b-433c-9ba3-38a9da9bb53f",
+    "Deploying Azure Functions Resource ...",
+    "Deploying Azure Functions Success",
+    "Deploying Bot Resource ...",
+    "Provisioning completed successfully!"
+  ]
+}
