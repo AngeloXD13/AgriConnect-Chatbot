@@ -1,0 +1,21 @@
+[import](common.lg)
+
+# SendActivity_JjlLFL()
+[Activity
+    Attachments = ${SendActivity_JjlLFL_attachment_bu4YRZ()}
+]
+
+# SendActivity_JjlLFL_attachment_bu4YRZ()
+[HeroCard
+  title = Batangas City Agriculture Office
+  
+  images = https://scontent.fmnl30-3.fna.fbcdn.net/v/t39.30808-6/243171551_163384659301872_1596444560344907297_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_ohc=B8XKxni5CPAAX8WRyZ-&_nc_ht=scontent.fmnl30-3.fna&oh=00_AfCbOM06YYzUiofgmPF18ANc1NdIrWuIgjTXllVEZI-7Sg&oe=64C76A25
+ 
+]
+
+# SendActivity_DidNotUnderstand_text()
+- Sorry, I didn't get that.
+# SendActivity_o22G4I()
+[Activity
+    Text = ${SendActivity_DidNotUnderstand_text()}
+]

@@ -1,13 +1,5 @@
 [import](common.lg)
 
-# SendActivity_Greeting()
-[Activity
-    Text = ${SendActivity_Greeting_text()}
-]
-
-# SendActivity_Greeting_text()
-- Welcome to your bot.
-
 # SendActivity_DidNotUnderstand()
 [Activity
     Text = ${SendActivity_DidNotUnderstand_text()}
@@ -15,3 +7,28 @@
 
 # SendActivity_DidNotUnderstand_text()
 - Sorry, I didn't get that.
+# SendActivity_EFEnZg()
+[Activity
+    Text = ${SendActivity_EFEnZg_text()}
+]
+
+# SendActivity_EFEnZg_text()
+- Welcome to Agri Connect Platform
+# SendActivity_54uKxz()
+[Activity
+    Attachments = ${SendActivity_54uKxz_attachment_eMyDbw()}
+]
+
+# SendActivity_54uKxz_attachment_eMyDbw()
+[AnimationCard
+    title = Hi there!
+    subtitle = I'm Agri Connect chatbot
+    media = https://media.tenor.com/CigpzapemsoAAAAj/hi-robot.gif
+]
+# ChoiceInput_Prompt_3Ty6Qj()
+[Activity
+    Text = ${ChoiceInput_Prompt_3Ty6Qj_text()}
+]
+
+# ChoiceInput_Prompt_3Ty6Qj_text()
+- How can I help you?

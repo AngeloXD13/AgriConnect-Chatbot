@@ -36,10 +36,74 @@
                 {
                   "$kind": "Microsoft.SendActivity",
                   "$designer": {
-                    "id": "859266",
-                    "name": "Send a response"
+                    "id": "EFEnZg"
                   },
-                  "activity": "${SendActivity_Greeting()}"
+                  "activity": "${SendActivity_EFEnZg()}"
+                },
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "54uKxz"
+                  },
+                  "activity": "${SendActivity_54uKxz()}"
+                },
+                {
+                  "$kind": "Microsoft.ChoiceInput",
+                  "$designer": {
+                    "id": "3Ty6Qj"
+                  },
+                  "defaultLocale": "en-us",
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "prompt": "${ChoiceInput_Prompt_3Ty6Qj()}",
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "choiceOptions": {
+                    "includeNumbers": true,
+                    "inlineOrMore": ", or ",
+                    "inlineOr": " or ",
+                    "inlineSeparator": ", "
+                  },
+                  "choices": [
+                    "About Us",
+                    "View Services",
+                    "Program Offered"
+                  ],
+                  "recognizerOptions": {
+                    "recognizeOrdinals": true
+                  },
+                  "property": "$help",
+                  "outputFormat": "value"
+                },
+                {
+                  "$kind": "Microsoft.SwitchCondition",
+                  "$designer": {
+                    "id": "f5SCev"
+                  },
+                  "condition": "$help",
+                  "cases": [
+                    {
+                      "value": "About Us",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.BeginDialog",
+                          "$designer": {
+                            "id": "fvpdEZ"
+                          },
+                          "activityProcessed": true,
+                          "dialog": "AboutUs"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "View Services"
+                    },
+                    {
+                      "value": "Program Offered"
+                    }
+                  ]
                 }
               ]
             }
